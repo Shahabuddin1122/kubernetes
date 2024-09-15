@@ -12,3 +12,9 @@ kubectl delete deployment NAME
 
 basically we use configuration.yaml file for creating pods where all the options are available. after creating yaml we do this operation
 kubectl apply -f config.yaml
+
+get all info of a project
+kubectl get all | grep mongodb
+
+expose external url
+minikube service mongo-express-service
