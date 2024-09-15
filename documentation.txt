@@ -1,0 +1,14 @@
+create a pod
+kubectl create deployment NAME --image=image
+
+check info
+kubectl get nodes,services,deployment,replicaset
+
+edit a deployment
+kubectl edit deployment NAME
+
+delete a deployment
+kubectl delete deployment NAME
+
+basically we use configuration.yaml file for creating pods where all the options are available. after creating yaml we do this operation
+kubectl apply -f config.yaml
